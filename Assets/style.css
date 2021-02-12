@@ -1,4 +1,31 @@
-.hello {
-    clear: both;
-    font-size: '100px';
+/* body {
+    background-color: gray;
+    opacity: .5;
+} */
+/* html {
+    min-height:100%;
+    background:linear-gradient(90deg, rgba(232, 232, 232, 0.3), rgba(90, 90, 90, 0.3)), url(http://lorempixel.com/800/600/nature/2);
+    background-size:cover;
+  } */
+
+header {
+min-height: 75px;
+}
+
+.about-me {
+    color: blue;
+}
+
+.photo-self {
+    width:300px;
+    height:300px;
+}
+img {
+    width:500px;
+    height:500px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+p {
+    font-size: 16pt;
 }
