@@ -13,7 +13,12 @@ min-height: 75px;
 }
 
 .about-me {
-    color: blue;
+    color: rgb(39, 39, 41);
+    font-size: 30pt;
+    margin-bottom: 3px;
+}
+.about-me-text {
+    
 }
 
 .photo-self {
@@ -23,9 +28,21 @@ min-height: 75px;
 img {
     width:500px;
     height:500px;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-right: 25px;
+    margin-bottom: 10px;
 }
 p {
-    font-size: 16pt;
+    font-size: 18pt;
+    text-indent: 30px;
 }
+.focus-1 {
+    font-style: italic;
+  }
+.focus-2 {
+    font-style: italic;
+    text-decoration: underline;
+  }
+/* .navbarSupportedContent {
+    justify-content: right;
+} */
