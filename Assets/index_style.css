@@ -12,14 +12,13 @@ header {
 min-height: 75px;
 }
 
-.about-me {
+.the-pitch {
     color: rgb(39, 39, 41);
     font-size: 30pt;
     margin-bottom: 3px;
+    height:90vh;
 }
-.about-me-text {
-    
-}
+
 
 .photo-self {
     width:300px;
@@ -32,10 +31,10 @@ img {
     margin-right: 25px;
     margin-bottom: 10px;
 }
-p {
+/* p {
     font-size: 18pt;
     text-indent: 30px;
-}
+} */
 .focus-1 {
     font-style: italic;
   }
@@ -46,3 +45,29 @@ p {
 /* .navbarSupportedContent {
     justify-content: right;
 } */
+
+body {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)); */
+    /* background: #f2f2f2;
+   -webkit-background-size: cover;
+   -moz-background-size:  cover;
+   -o-background-size: cover;
+   background-size: cover; */
+ }
+
+ /* .hsc-9-img {
+    background-position: 20px 10px;
+    width:50px;
+    height:50px;
+    
+ } */
+
+ #hello-there {
+     text-indent: 0;
+     font-size: 28pt;
+ }
+ #im-joe {
+    font-size: 28pt;
+    float: right;
+    flex-wrap: nowrap;
+ }
