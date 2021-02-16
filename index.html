@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./Assets/index_style.css">
 </head>
 
-<body>
+<body class = "d-flex flex-column min-vh-100">
   <header>
     <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -47,12 +47,14 @@
           <img class="rounded float-start img-thumbnail" src="./Assets/images/prof_image_1_cabin_in_the_woods.jpg" alt="Picutre of a ruggedly handsome young man by the name of Joe Malone">
         </div>
       <div class="col-sm-6 greeting">
-        <p class = "hello">
-          <span id = 'hello-there'>Hello there,</span><br> 
-          <span id = 'im-joe'>I'm Joe.</span><br><br><br><br>
-          <span id = 'the-rest'>Your friendly neighborhood Web Developer<br>
-          I'm a Full-Stack Web developer, and I'd love to help you with your project.</span>
-        </p>
+        <div class = "hello">
+          <p class = 'hello-there'>Hello there,<br> I'm Joe.<br><br></p>
+           <!-- <p><span id = 'im-joe'></span><br><br><br><br></p> -->
+        </div>
+        <p>I'm a Full-Stack Web developer, and I'd love to help you with your project. Please take a minute to look around my space, and if you'd like to get in touch, you can contact me 
+          <!-- <span id = 'down-arrow'> &#8628; </span><br> -->
+        </p> <br>
+        <p id="get-in-touch-button"><a class="get-in-touch button" href="./contact.html">Get In Touch</a></p>
       </div>
       <div class="col-sm-6">
         <img class="rounded float-start img-thumbnail " src="./Assets/images/family_pic_2.jpg" alt="Picutre of a ruggedly handsome young man by the name of Joe Malone">

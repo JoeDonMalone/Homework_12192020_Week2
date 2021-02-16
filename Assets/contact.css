@@ -1,6 +1,9 @@
 html {
     font-family: 'Varela Round', sans-serif;
 }
+body {background: rgb(214 215 216 / 50%);
+}
+
 header {
 min-height: 75px;
 }
@@ -14,18 +17,63 @@ div.col {
     margin-bottom: 10px;
 }
 
-.contact-me {
-    color: rgb(39, 39, 41);
-    font-size: 30pt;
-    margin-bottom: 3px;
-    height: 84.5vh;
+p {
+    font-size: 18pt;
 }
+
+.buffer  {
+    height: 40vh;
+}
+.canvas {
+    align-items: center;
+    min-width: 50%;
+    background: rgb(192, 192, 192);
+}
+.contact-form {
+    color: rgb(39, 39, 41);
+    background-color: #f2f2f2;
+    margin-bottom: 3px;
+}
+h4 {
+    display: block;
+    margin-block-start: .5em;
+    margin-block-end: 1.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+/* .p {
+    padding-left: 10px;
+} */
+
+#address, #phone, #email {
+    font-size: 25.2px;
+}
+
+.address, #phone, #email {
+    font-size: 25.2px;
+}
+
 .container-footer {
     width: auto;
     max-width: 100vw;
     padding: 0 15px;
     text-align: center;
   }
+
+.d-flex {
+justify-content: space-between;
+flex-wrap: wrap;    
+}
+
+.card {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    width: 14rem;
+}
+
+/* SOCIAL MEDIA ICONS */
 
 
   .fab {
