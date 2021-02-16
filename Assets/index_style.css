@@ -5,12 +5,6 @@ header {
 min-height: 75px;
 }
 
-.the-pitch {
-    color: rgb(39, 39, 41);
-    font-size: 30pt;
-    margin-bottom: 3px;
-    height:90vh;
-}
 
 div.col {
     margin-bottom: 20px;
@@ -30,13 +24,6 @@ div.col {
     font-size: 18pt;
     text-indent: 30px;
 } */
-.focus-1 {
-    font-style: italic;
-  }
-.focus-2 {
-    font-style: italic;
-    text-decoration: underline;
-  }
 
 body {
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5)); */
